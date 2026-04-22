@@ -54,5 +54,38 @@ namespace PACM.BLTest
             Assert.AreEqual(expected, actual);
 
         }
+
+        [TestMethod]
+        public void ValidateValid()
+        {
+            // Arrange
+            Customer customer = new Customer
+            {
+                LastName = "Baggins",
+                EmailAddress = "fbaggins@hobitton.me"
+            };
+            var expected = true;
+            // Act
+            var actual = customer.Validate();
+            // Assert
+            Assert.AreEqual(expected, actual);
+
+        }
+
+        [TestMethod]
+        public void ValidateMissingLastName()
+        {
+            // Arrange
+            Customer customer = new Customer
+            {
+                EmailAddress = "fbaggins@hobitton.me"
+            };
+            var expected = false;
+            // Act
+            var actual = customer.Validate();
+            // Assert
+            Assert.AreEqual(expected, actual);
+
+        }
     }
 }
