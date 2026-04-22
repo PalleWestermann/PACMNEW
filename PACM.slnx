@@ -1,3 +1,6 @@
 <Solution>
+  <Folder Name="/Tests/">
+    <Project Path="Tests/PACM.BLTest/PACM.BLTest.csproj" />
+  </Folder>
   <Project Path="PACM.BL/PACM.BL.csproj" />
 </Solution>
