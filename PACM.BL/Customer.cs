@@ -2,7 +2,15 @@
 {
     public class Customer
     {
-        public int CustomerId { get; set; }
+        public Customer()
+        {
+            
+        }
+        public Customer(int customerId)
+        {
+            CustomerId = customerId;
+        }
+        public int CustomerId { get; private set; }
         public string EmailAddress { get; set; }
 
         // FirstName uses Auto-implemented property (for when you do not need to check on Set and Get).
