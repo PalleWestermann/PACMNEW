@@ -11,7 +11,7 @@
         public string FullName {
             get
             {
-                return LastName + "," + FirstName;
+                return LastName + ", " + FirstName;
             }
         }
 
