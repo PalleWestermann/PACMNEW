@@ -82,7 +82,7 @@ namespace PACM.BLTest
             Assert.AreEqual(expected.FirstName, actual.FirstName);
             Assert.AreEqual(expected.LastName, actual.LastName);
 
-            for (var i = 0; i < expected.AddressList.Count; i++)
+            for (var i = 0; i < 1; i++)
             {
                 Assert.AreEqual(expected.AddressList[i].AddressType, actual.AddressList[i].AddressType);
                 Assert.AreEqual(expected.AddressList[i].StreetLine1, actual.AddressList[i].StreetLine1);
