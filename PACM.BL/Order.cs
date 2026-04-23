@@ -25,21 +25,21 @@ namespace PACM.BL
         /// Retrieve one order.
         /// </summary>  
         /// 
-        public Order Retrieve (int orderId)
-        {
-            // Code that retrieves the defined order.
-            return new Order();
-        }
+        //public Order Retrieve (int orderId)
+        //{
+        //    // Code that retrieves the defined order.
+        //    return new Order();
+        //}
 
         /// <summary>
         /// Saves the current order.
         /// </summary>
         /// <returns></returns>
-        public bool Save()
-        {
-            // Code that saves the defined order.
-            return true;
-        }
+        //public bool Save()
+        //{
+        //    // Code that saves the defined order.
+        //    return true;
+        //}
 
         /// <summary>
         ///  Determines whether the current object is in a valid state for processing.

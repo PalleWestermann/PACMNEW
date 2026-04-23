@@ -27,17 +27,17 @@ namespace PACM.BL
         /// Retrieve one product.
         /// </summary>
         /// 
-        public Product Retrieve(int productId)
-        {
-            // Code that retrieves the defined product.
-            return new Product();
-        }
+        //public Product Retrieve(int productId)
+        //{
+        //    // Code that retrieves the defined product.
+        //    return new Product();
+        //}
 
-        public bool Save()
-        {
-            // Code that saves the defined product.
-            return true;
-        }
+        //public bool Save()
+        //{
+        //    // Code that saves the defined product.
+        //    return true;
+        //}
 
         public bool Validate()
         {
