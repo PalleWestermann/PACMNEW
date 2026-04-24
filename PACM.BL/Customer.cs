@@ -13,6 +13,7 @@
         }
         public List<Address> AddressList { get; set; }
         public int CustomerId { get; private set; }
+        public int CustomerTYpe { get; set; }
         public string EmailAddress { get; set; }
 
         // FirstName uses Auto-implemented property (for when you do not need to check on Set and Get).
@@ -44,6 +45,7 @@
             set { _lastName = value; }  // Value is a keyword that represents the value being assigned to the property.
         }
 
+        public override string ToString() => FullName;
 
         /// Retrieves one customer.
         //public Customer Retrieve(int customerId)

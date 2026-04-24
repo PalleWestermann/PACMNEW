@@ -23,6 +23,8 @@ namespace PACM.BL
         public int ProductId { get; private set; }
         public string ProductName { get; set; }
 
+        public override string ToString() => ProductName;
+
         /// <summary>
         /// Retrieve one product.
         /// </summary>
