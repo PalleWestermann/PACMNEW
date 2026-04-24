@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace PACM.BL
 {
-    public class Product
+    public class Product : EntityBase
     {
         public Product()
         {
@@ -41,7 +41,7 @@ namespace PACM.BL
         //    return true;
         //}
 
-        public bool Validate()
+        public override bool Validate()
         {
             var isValid = true;
 
