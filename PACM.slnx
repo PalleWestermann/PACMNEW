@@ -1,6 +1,8 @@
 <Solution>
   <Folder Name="/Tests/">
     <Project Path="Tests/PACM.BLTest/PACM.BLTest.csproj" />
+    <Project Path="Tests/PACM.CommonTest/PACM.CommonTest.csproj" Id="2d569130-d80a-4ab1-b3ed-080e7b26b251" />
   </Folder>
   <Project Path="PACM.BL/PACM.BL.csproj" />
+  <Project Path="PACM.Common/PACM.Common.csproj" Id="6d5e6785-13b5-4614-a539-08f8fb9b5d94" />
 </Solution>
